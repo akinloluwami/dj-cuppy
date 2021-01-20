@@ -155,14 +155,14 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 75px;
-  height: 75px;
+  width: 55px;
+  height: 55px;
   border: 1px solid #808080;
   border-radius: 50%;
 }
 .scroll .img {
   border-radius: 50%;
-  width: 70px;
+  width: 50px;
 }
 .scroll .image {
   display: flex;
