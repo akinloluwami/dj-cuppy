@@ -23,6 +23,10 @@ a:visited {
   align-items: center;
   justify-content: space-between;
   box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.15);
+  position: fixed;
+  top: 0;
+  z-index: 100000000;
+  width: 100%;
 }
 /***********LEFT******/
 .topbar .left {
