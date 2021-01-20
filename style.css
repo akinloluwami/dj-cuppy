@@ -109,14 +109,16 @@ a:visited {
   border: 1px solid #dbdbdb;
   outline: none;
   margin: 3px;
+  cursor: pointer;
 }
-.btns .msg {
+.btns .btn-follow {
   padding: 5px 25px;
 }
-.btns .pfl {
+.btns .btn-pfl {
   padding: 5px 15px;
+  display: none;
 }
-.btns .ic {
+.btns .btn-icon {
   padding: 8px 12px;
 }
 /*************************/
@@ -204,3 +206,55 @@ span {
   color: #fff;
   font-size: 20px;
 }
+.btn-pfl.active {
+  display: block;
+}
+/*****************************************************/
+/**************************SUGGESTIONS********************/
+.suggestion {
+  display: none;
+  height: 40vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top:0.5px solid #dbdbdb;
+  border-bottom:0.5px solid #dbdbdb;
+}
+.suggestion.active {
+  display: block;
+}
+.suggestion .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  height: 5vh;
+}
+.suggestion .all{
+  color: #00376b;
+  cursor: pointer;
+}
+.suggested{
+  display: flex;
+  justify-content: space-between;
+}
+.suggested .profile{
+  background-color: #fff;
+  border: 0.5px solid #808080;
+  height: 200px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.profile .img{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+/*****************************************************/
