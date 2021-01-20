@@ -149,6 +149,7 @@ span {
   width: 100%;
   height: 20vh;
   align-items: center;
+  margin: 0 7px;
 }
 .scroll .img-border {
   display: flex;
@@ -166,4 +167,5 @@ span {
 .scroll .image {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
