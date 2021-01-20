@@ -24,19 +24,19 @@ a:visited {
   justify-content: space-between;
   box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.15);
 }
-/***********RIGHT******/
-.topbar .right {
+/***********LEFT******/
+.topbar .left {
   display: flex;
   align-items: center;
   margin: 0 10px;
 }
-.topbar .right .fas {
-  margin-right: 7px;
+.topbar .left .fas {
+  margin-right: 10px;
 }
 /*************************/
 
-/***********LEFT******/
-.topbar .left {
+/***********RIGHT******/
+.topbar .right {
   margin: 0 10px;
 }
 /*************************/
