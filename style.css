@@ -146,10 +146,9 @@ span {
 .scroll {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   height: 20vh;
   align-items: center;
-  margin: 0 7px;
 }
 .scroll .img-border {
   display: flex;
