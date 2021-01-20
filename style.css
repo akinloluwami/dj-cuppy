@@ -137,9 +137,7 @@ span {
   color: #00376b;
 }
 .following {
-  width: 95%;
-  text-align: center;
-  margin: auto;
+  font-size: 8px;
 }
 /*************************/
 /*******************************************/
