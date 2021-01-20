@@ -184,3 +184,19 @@ span {
   bottom: 0;
   position: fixed;
 }
+.navbar-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 7vh;
+}
+.navbar-cont .fas {
+  color: #fff;
+  font-size: 20px;
+}
+.navbar-cont .far {
+  color: #fff;
+  font-size: 20px;
+}
