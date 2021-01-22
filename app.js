@@ -9,6 +9,7 @@ const unFollow = document.querySelector(".unfollow-container");
 const unFollowBtn = document.querySelector(".unfollow-btn");
 const overLay = document.querySelector(".overlay");
 const cancel = document.querySelector(".cancel");
+const loader = document.querySelector(".loader");
 
 btnFollow.addEventListener("click", function () {
   btnPfl.classList.add("active");
@@ -39,4 +40,12 @@ unFollowBtn.addEventListener("click", function () {
   btnFollow.innerHTML = "Follow";
   unFollow.classList.remove("active");
   overLay.classList.remove("active");
+  btnFollow.classList.remove("active");
+});
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    loader.classList.add("loaded");
+    document.body.style.overflow = "auto";
+  }, 1500);
 });
