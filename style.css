@@ -131,11 +131,16 @@ a:visited {
   display: none;
   background-color: #000;
   border: 0.5px solid #fff;
+  display: flex;
 }
 .btns .btn-icon {
   padding: 8px 12px;
   background-color: #000;
   border: 0.5px solid #fff;
+}
+.btn-icon.active {
+  background-color: #fff;
+  color: #000;
 }
 /*************************/
 
