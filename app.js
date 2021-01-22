@@ -18,7 +18,7 @@ btnFollow.addEventListener("click", function () {
 });
 btnIcon.addEventListener("click", function () {
   suggestion.classList.toggle("active");
-  btnFollow.classList.toggle("active");
+  btnIcon.classList.toggle("active");
 });
 seeAll.addEventListener("click", function () {
   popUp.classList.add("active");
