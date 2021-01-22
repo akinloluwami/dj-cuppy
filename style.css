@@ -37,6 +37,7 @@ a:visited {
 }
 .topbar .left .fas {
   margin-right: 10px;
+  color: #fff;
 }
 /*************************/
 
@@ -78,7 +79,7 @@ a:visited {
 .profile .cont .right .dp .pic {
   border-radius: 100px;
   width: 100px;
-  border: 2px solid #fff;
+  border: 2px solid #1a1a1a;
 }
 /*************************/
 /***********LEFT******/
@@ -91,6 +92,7 @@ a:visited {
 .left .stats {
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 .left .stats .stat {
   display: flex;
@@ -117,17 +119,22 @@ a:visited {
 }
 .btns .btn-follow {
   padding: 5px 25px;
-  background-color: #0195f9;
+  background-color: #0095f6;
+}
+.btns .btn-follow.active {
+  padding: 5px 25px;
+  background-color: #000;
+  border: 0.5px solid #fff;
 }
 .btns .btn-pfl {
   padding: 5px 15px;
   display: none;
-  background-color: #1a1a1a;
+  background-color: #000;
   border: 0.5px solid #fff;
 }
 .btns .btn-icon {
   padding: 8px 12px;
-  background-color: #1a1a1a;
+  background-color: #000;
   border: 0.5px solid #fff;
 }
 /*************************/
@@ -149,6 +156,9 @@ a:visited {
   font-size: 14px;
   list-style: none;
 }
+.bio a {
+  color: #c6e4ff;
+}
 span {
   color: #c6e4ff;
   cursor: pointer;
@@ -167,6 +177,7 @@ span {
   height: 20vh;
   align-items: center;
   margin: auto;
+  color: #fff;
 }
 .scroll .img-border {
   display: flex;
@@ -191,13 +202,13 @@ span {
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
   cursor: pointer;
-  color: #c6e4ff;
+  color: #00376b;
   text-align: center;
 }
 .navbar {
   width: 100%;
   height: 7vh;
-  background-color: grey;
+  background-color: #1a1a1a;
   z-index: 90000;
   bottom: 0;
   position: fixed;
@@ -314,27 +325,41 @@ span {
 .popup.active {
   display: block;
 }
-.popup-small.active {
+.unfollow-container.active {
   display: block;
 }
-.popup-small {
+.unfollow-container {
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   margin: auto;
-  padding: 35px;
-  background: #fff;
-  border-radius: 5px;
+  padding: 25px 10px;
+  background: #1a1a1a;
+  border-radius: 15px;
   position: fixed;
-  bottom: calc(50% - 300px);
+  bottom: calc(50% - 100px);
   left: calc(50% - 130px);
   display: none;
 }
-.popup-small .btns {
+.unfollow {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  height: 30vh;
   justify-content: space-between;
 }
-.popup-small .btns p {
+.unfollow img {
+  border-radius: 100px;
+  width: 40%;
+}
+.unfollow p {
   cursor: pointer;
+}
+.unfollow-btn {
+  color: #ed4956;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 7px 65px;
 }
 .overlay {
   background: rgba(0, 0, 0, 0.5);

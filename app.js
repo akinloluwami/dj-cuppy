@@ -5,14 +5,15 @@ const suggestion = document.querySelector(".suggestion");
 const bio = document.querySelector(".bio");
 const seeAll = document.querySelector(".all");
 const popUp = document.querySelector(".popup");
-const popUpSmall = document.querySelector(".popup-small");
+const unFollow = document.querySelector(".unfollow-container");
+const unFollowBtn = document.querySelector(".unfollow-btn");
 const overLay = document.querySelector(".overlay");
 const cancel = document.querySelector(".cancel");
-const unFollow = document.querySelector(".unfollow");
 
 btnFollow.addEventListener("click", function () {
   btnPfl.classList.add("active");
   btnFollow.innerHTML = "Message";
+  btnFollow.classList.add("active");
 });
 btnIcon.addEventListener("click", function () {
   suggestion.classList.toggle("active");
@@ -27,30 +28,15 @@ overLay.addEventListener("click", function () {
 });
 btnPfl.addEventListener("click", function () {
   overLay.classList.add("active");
-  popUpSmall.classList.add("active");
+  unFollow.classList.add("active");
 });
 cancel.addEventListener("click", function () {
   overLay.classList.remove("active");
-  popUpSmall.classList.remove("active");
+  unFollow.classList.remove("active");
 });
-unFollow.addEventListener("click", function () {
+unFollowBtn.addEventListener("click", function () {
   btnPfl.classList.remove("active");
   btnFollow.innerHTML = "Follow";
-  popUpSmall.classList.remove("active");
+  unFollow.classList.remove("active");
   overLay.classList.remove("active");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
