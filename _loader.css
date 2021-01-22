@@ -27,7 +27,7 @@
 }
 .loader-content .text {
   text-align: center;
-  transform: translateY(500%);
+  transform: translateY(450%);
 }
 .loader-content .text p {
   background: linear-gradient(
