@@ -122,7 +122,6 @@ a:visited {
   background-color: #0095f6;
 }
 .btns .btn-follow.active {
-  padding: 5px 25px;
   background-color: #000;
   border: 0.5px solid #fff;
 }
