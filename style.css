@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  background-color: #fafafa;
+  background-color: #1a1a1a;
   font-family: Poppins;
 }
 a:link {
@@ -20,10 +20,10 @@ a:visited {
 .topbar {
   height: 7vh;
   display: flex;
-  background-color: #fff;
+  background-color: #1a1a1a;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.15);
+  color: #fff;
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -107,22 +107,28 @@ a:visited {
 
 .btn {
   border-radius: 4px;
-  border: 1px solid #dbdbdb;
+  border: none;
   outline: none;
   margin: 3px;
   cursor: pointer;
   display: flex;
   align-items: center;
+  color: #fff;
 }
 .btns .btn-follow {
   padding: 5px 25px;
+  background-color: #0195f9;
 }
 .btns .btn-pfl {
   padding: 5px 15px;
   display: none;
+  background-color: #1a1a1a;
+  border: 0.5px solid #fff;
 }
 .btns .btn-icon {
   padding: 8px 12px;
+  background-color: #1a1a1a;
+  border: 0.5px solid #fff;
 }
 /*************************/
 
@@ -130,6 +136,7 @@ a:visited {
 /************BIO************/
 .bio {
   margin-left: 15px;
+  color: #fff;
 }
 .bio .display-name {
   display: flex;
@@ -143,7 +150,7 @@ a:visited {
   list-style: none;
 }
 span {
-  color: #00376b;
+  color: #c6e4ff;
   cursor: pointer;
 }
 .following {
@@ -184,7 +191,7 @@ span {
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
   cursor: pointer;
-  color: #00376b;
+  color: #c6e4ff;
   text-align: center;
 }
 .navbar {
