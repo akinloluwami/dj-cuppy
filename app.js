@@ -4,6 +4,8 @@ const btnArrow = document.querySelector(".btn.arrow");
 const btnFollow = document.querySelector(".btn.follow");
 const btnFollowing = document.querySelector(".btn.following");
 const popUp = document.querySelector(".popup");
+const overLay = document.querySelector(".overlay");
+const navBar = document.querySelector(".navbar");
 
 btnArrow.addEventListener("click", () => {
   suggestion.classList.toggle("active");
@@ -16,6 +18,14 @@ btnFollow.addEventListener("click", () => {
 
 btnFollowing.addEventListener("click", () => {
   popUp.classList.add("active");
+  overLay.classList.add("active");
+  navBar.classList.add("hide");
+});
+
+overLay.addEventListener("click", () => {
+  popUp.classList.remove("active");
+  overLay.classList.remove("active");
+  navBar.classList.remove("hide");
 });
 
 window.addEventListener("load", () => {

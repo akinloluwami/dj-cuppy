@@ -231,6 +231,9 @@ span {
   margin: auto;
   height: 7vh;
 }
+.navbar.hide {
+  display: none;
+}
 .navbar-cont .fas {
   color: #fff;
   font-size: 20px;
@@ -354,21 +357,18 @@ span {
 /*****************************************************/
 .popup {
   width: 100%;
-  max-width: 200px;
-  padding: 23px;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 10px 10px 0 0;
   position: fixed;
-  margin: 5% auto;
-  top: calc(50% - 180px);
-  left: calc(50% - 125px);
   display: none;
+  height: 45vh;
+  top: 55%;
 }
 .popup.active {
   display: block;
 }
 .overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0%;
   left: 0;
