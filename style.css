@@ -152,7 +152,7 @@ a:visited {
   display: flex;
   align-items: center;
 }
-.bio .verified {
+.verified {
   width: 30px;
 }
 .bio .list {
@@ -246,9 +246,10 @@ span {
 /**************************SUGGESTIONS********************/
 .suggestion {
   display: none;
-  height: 40vh;
   background-color: #1a1a1a;
   display: flex;
+  width: 100%;
+  align-items: center;
   flex-direction: column;
   border-top: 0.5px solid #dbdbdb;
   border-bottom: 0.5px solid #dbdbdb;
@@ -266,26 +267,55 @@ span {
   width: 95%;
   margin: auto;
   height: 5vh;
+  color: #fff;
 }
 .suggestion .all {
-  color: #00376b;
+  color: #0095f6;
   cursor: pointer;
 }
 .suggested {
   display: flex;
-  justify-content: space-between;
+  max-height: 300px;
+  overflow-x: auto;
+  width: 100%;
+  color: #fff;
+}
+.suggested::-webkit-scrollbar {
+  width: 0px;
 }
 .suggested .profile {
-  background-color: #fff;
+  background-color: #000;
   border: 0.5px solid #808080;
-  height: 200px;
-  width: 150px;
+  height: 150px;
+  width: 100px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
+  padding: 35px 40px;
+  margin: 0px 5px;
+}
+.profile .img img {
+  border-radius: 100px;
+  width: 90px;
+}
+.profile b {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+.profile button {
+  background-color: #0095f6;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 3px 30px;
+}
+.profile small {
+  color: #8e8e8e;
+  padding: 5px 0;
 }
 /*****************************************************/
 
