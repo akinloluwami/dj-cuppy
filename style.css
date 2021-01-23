@@ -392,9 +392,10 @@ span {
   list-style-type: none;
   color: #fff;
   margin-left: 20px;
-}
-.popup ul li {
-  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
 }
 .overlay {
   background: rgba(0, 0, 0, 0.3);
