@@ -175,9 +175,16 @@ span {
 /**********************SCROLL********************/
 .scroll {
   display: flex;
-  max-height: 120px;
+  max-height: 150px;
   overflow-x: auto;
+  width: 100%;
+  padding: 20px 0;
+  justify-content: space-between;
+  margin: auto;
   color: #fff;
+}
+.scroll::-webkit-scrollbar {
+  width: 0px;
 }
 .scroll .img-border {
   display: flex;
@@ -192,17 +199,20 @@ span {
   border-radius: 100px;
   width: 50px;
 }
-.scroll .image {
+.scroll .scroll-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 5px;
+  font-size: 12px;
+  text-align: center;
 }
 .cta {
   padding: 15px;
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
   cursor: pointer;
-  color: #00376b;
+  color: #c6e4ff;
   text-align: center;
 }
 .navbar {
@@ -237,7 +247,7 @@ span {
 .suggestion {
   display: none;
   height: 40vh;
-  background-color: #fff;
+  background-color: #1a1a1a;
   display: flex;
   flex-direction: column;
   border-top: 0.5px solid #dbdbdb;
