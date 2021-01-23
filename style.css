@@ -65,8 +65,8 @@ a:visited {
 }
 .profile .cont .right .dp {
   border-radius: 100px;
-  width: 105px;
-  height: 105px;
+  width: 103px;
+  height: 103px;
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
@@ -129,6 +129,15 @@ a:visited {
 .btn.follow {
   border: none;
   background-color: #0095f6;
+}
+.btn.follow.hide {
+  display: none;
+}
+.btn.following {
+  display: none;
+}
+.btn.following.active {
+  display: block;
 }
 .btn.arrow {
   width: 30px;
@@ -310,6 +319,15 @@ span {
 .profile small {
   color: #8e8e8e;
   padding: 1px 0;
+}
+.suggested .profile button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0095f6;
+  font-size: 14px;
+  padding: 5px 20px;
 }
 /*****************************************************/
 

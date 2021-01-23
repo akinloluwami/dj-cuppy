@@ -1,30 +1,17 @@
-/*const btnFollow = document.querySelector(".btn-follow");
-const btnPfl = document.querySelector(".btn-pfl");
-const btnIcon = document.querySelector(".btn-icon");*/
 const suggestion = document.querySelector(".suggestion");
-const bio = document.querySelector(".bio");
-const popUp = document.querySelector(".popup");
-const overLay = document.querySelector(".overlay");
 const loader = document.querySelector(".loader");
+const btnArrow = document.querySelector(".btn.arrow");
+const btnFollow = document.querySelector(".btn.follow");
+const btnFollowing = document.querySelector(".btn.following");
 
-/*btnFollow.addEventListener("click", function () {
-  btnPfl.classList.add("active");
-  btnFollow.innerHTML = "Message";
-  btnFollow.classList.add("active");
-});
-btnIcon.addEventListener("click", function () {
+btnArrow.addEventListener("click", () => {
   suggestion.classList.toggle("active");
-  btnIcon.classList.toggle("active");
-});*/
-
-overLay.addEventListener("click", function () {
-  overLay.classList.remove("active");
-  popUp.classList.remove("active");
 });
-/*btnPfl.addEventListener("click", function () {
-  overLay.classList.add("active");
-  unFollow.classList.add("active");
-});*/
+
+btnFollow.addEventListener("click", () => {
+  btnFollowing.classList.add("active");
+  btnFollow.classList.add("hide");
+});
 
 window.addEventListener("load", () => {
   setTimeout(() => {
