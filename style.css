@@ -7,6 +7,7 @@
 body {
   background-color: #1a1a1a;
   font-family: Poppins;
+  width: 100vw;
 }
 a:link {
   text-decoration: none;
@@ -64,8 +65,8 @@ a:visited {
 }
 .profile .cont .right .dp {
   border-radius: 100px;
-  width: 110px;
-  height: 110px;
+  width: 105px;
+  height: 105px;
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
@@ -78,8 +79,8 @@ a:visited {
 }
 .profile .cont .right .dp .pic {
   border-radius: 100px;
-  width: 100px;
-  border: 2px solid #1a1a1a;
+  width: 90px;
+  border: 4px solid #1a1a1a;
 }
 /*************************/
 /***********LEFT******/
@@ -100,47 +101,39 @@ a:visited {
   flex-direction: column;
   padding: 5px;
 }
-
+.stats .stat b {
+  font-size: 16px;
+}
 /*********BUTTONS*******/
-.btns {
+.buttons {
   display: flex;
+  width: 95%;
+  height: 10vh;
+  align-items: center;
+  margin: auto;
   justify-content: space-between;
 }
-
-.btn {
-  border-radius: 4px;
-  border: none;
+.buttons .btn {
   outline: none;
-  margin: 3px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
+  border: none;
+  border-radius: 4px;
   color: #fff;
+  background-color: #000;
+  border: 0.5px solid #fff;
+  font-size: 16px;
+  width: 28%;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 3px;
 }
-.btns .btn-follow {
-  padding: 5px 25px;
+.btn.follow {
+  border: none;
   background-color: #0095f6;
 }
-.btns .btn-follow.active {
-  background-color: #000;
-  border: 0.5px solid #fff;
+.btn.arrow {
+  width: 30px;
+  height: 30px;
 }
-.btns .btn-pfl {
-  padding: 5px 15px;
-  display: none;
-  background-color: #000;
-  border: 0.5px solid #fff;
-}
-.btns .btn-icon {
-  padding: 8px 12px;
-  background-color: #000;
-  border: 0.5px solid #fff;
-}
-.btn-icon.active {
-  background-color: #fff;
-  color: #000;
-}
-/*************************/
 
 /*************************/
 /************BIO************/
@@ -159,6 +152,12 @@ a:visited {
   font-size: 14px;
   list-style: none;
 }
+.list small {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
 .bio a {
   color: #c6e4ff;
 }
@@ -166,8 +165,8 @@ span {
   color: #c6e4ff;
   cursor: pointer;
 }
-.following {
-  font-size: 10px;
+.followed-by {
+  font-size: 12px;
 }
 /*************************/
 /*******************************************/
@@ -178,7 +177,7 @@ span {
   max-height: 150px;
   overflow-x: auto;
   width: 100%;
-  padding: 20px 0;
+  padding: 5px 0;
   justify-content: space-between;
   margin: auto;
   color: #fff;
@@ -190,29 +189,21 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   border: 1px solid #808080;
   border-radius: 100px;
 }
 .scroll .img {
   border-radius: 100px;
-  width: 50px;
+  width: 60px;
 }
 .scroll .scroll-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 5px;
+  margin: 0 10px;
   font-size: 12px;
-  text-align: center;
-}
-.cta {
-  padding: 15px;
-  border-top: 1px solid #808080;
-  border-bottom: 1px solid #808080;
-  cursor: pointer;
-  color: #c6e4ff;
   text-align: center;
 }
 .navbar {
@@ -239,10 +230,19 @@ span {
   color: #fff;
   font-size: 20px;
 }
-.btn-pfl.active {
-  display: block;
-}
 /*****************************************************/
+
+.tabs {
+  width: 100%;
+}
+.tabs-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 7vh;
+}
 /**************************SUGGESTIONS********************/
 .suggestion {
   display: none;
@@ -306,17 +306,10 @@ span {
   font-size: 12px;
   align-items: center;
 }
-.profile button {
-  background-color: #0095f6;
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  color: #fff;
-  padding: 3px 30px;
-}
+
 .profile small {
   color: #8e8e8e;
-  padding: 5px 0;
+  padding: 1px 0;
 }
 /*****************************************************/
 
@@ -365,42 +358,6 @@ span {
 }
 .popup.active {
   display: block;
-}
-.unfollow-container.active {
-  display: block;
-}
-.unfollow-container {
-  width: 100%;
-  max-width: 180px;
-  margin: auto;
-  padding: 25px 10px;
-  background: #1a1a1a;
-  border-radius: 15px;
-  position: fixed;
-  bottom: calc(50% - 100px);
-  left: calc(50% - 100px);
-  display: none;
-}
-.unfollow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  height: 30vh;
-  justify-content: space-between;
-}
-.unfollow img {
-  border-radius: 100px;
-  width: 40%;
-}
-.unfollow p {
-  cursor: pointer;
-}
-.unfollow-btn {
-  color: #ed4956;
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 1px solid #dbdbdb;
-  padding: 7px 65px;
 }
 .overlay {
   background: rgba(0, 0, 0, 0.5);
