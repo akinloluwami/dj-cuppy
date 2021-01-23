@@ -279,6 +279,7 @@ span {
   overflow-x: auto;
   width: 100%;
   color: #fff;
+  padding: 20px 0;
 }
 .suggested::-webkit-scrollbar {
   width: 0px;
