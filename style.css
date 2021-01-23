@@ -355,6 +355,32 @@ span {
 }
 
 /*****************************************************/
+.options-cont {
+  width: 100%;
+  position: fixed;
+  display: none;
+  top: 30%;
+}
+.options-cont.active {
+  display: block;
+}
+.options {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 10px;
+  height: 60vh;
+}
+.options ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-left: 10px;
+}
 .popup-cont {
   width: 100%;
   background: #262626;
@@ -407,7 +433,19 @@ span {
   display: block;
   display: none;
 }
-
 .overlay.active {
+  display: block;
+}
+.overlay2 {
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: none;
+}
+.overlay2.active {
   display: block;
 }
