@@ -3,13 +3,13 @@ const Posts = () =>
     <div class="posts">
     
       <div class="post">
-      1
+      
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/140364101_249357796584178_4544463485876182292_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=hQlg67smabsAX_-k67U&tp=1&oh=bc55589e3f12e989bb873365f7fdf6d7&oe=60386533"/>
       </div>
 
 
       <div class="post">
-      4
+      
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/139707623_780996496100120_8069315866576254449_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&amp;_nc_cat=108&amp;_nc_ohc=dPnnUgwMDwoAX9EqK20&amp;tp=1&amp;oh=ce6472f606c1ed02c4833f037d91b59b&amp;oe=600FA04D"/>
       </div>
 
@@ -36,13 +36,13 @@ const Posts = () =>
 
 
       <div class="post">
-      2
+      
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
       </div>
 
 
       <div class="post">
-      5
+      
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
       </div>
 
@@ -51,11 +51,6 @@ const Posts = () =>
       </div>
 
 
-      <div class="post">
-        <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
-      </div>
-
-        
       <div class="post">
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
       </div>
@@ -67,13 +62,18 @@ const Posts = () =>
 
         
       <div class="post">
-      3
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
       </div>
 
         
       <div class="post">
-      6
+      
+        <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
+      </div>
+
+        
+      <div class="post">
+      
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/138593252_857643878410082_3669767356566162358_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ja5B_U_IikYAX_9kiMA&tp=1&oh=39a575d4b1dc654db00222b3c4ca0cf1&oe=60362621"/>
       </div>
 
