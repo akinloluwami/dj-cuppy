@@ -23,7 +23,7 @@
 }
 .post-popup .photo {
   object-fit: cover;
-  background-image: url();
+  background-image: url(../img/cuppy.jpg);
   height: 350px;
   width: 350px;
   display: flex;
