@@ -336,30 +336,31 @@ span {
 
 /*************POSTS***************************/
 .posts {
-  height: 75vh;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: column;
+  column-count: 3;
+  column-gap: 3px;
+  column-width: 100%;
 }
-.posts .row {
-  height: 100%;
+.posts .post {
+  position: relative;
+  display: block;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 3px;
+  color: #fff;
 }
-.posts .squr {
-  width: 135px;
-  height: 135px;
-  background-color: aqua;
+.posts .post > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
-
 /*****************************************************/
 .options-cont {
   width: 100%;
   position: fixed;
   display: none;
   top: 20%;
+  z-index: 100;
 }
 .options-cont.active {
   display: block;
@@ -389,6 +390,7 @@ span {
   display: none;
   height: 45vh;
   top: 55%;
+  z-index: 101;
 }
 .popup-cont .popup .top {
   display: flex;
@@ -432,6 +434,7 @@ span {
   height: 100%;
   display: block;
   display: none;
+  z-index: 101;
 }
 .overlay.active {
   display: block;
@@ -445,6 +448,7 @@ span {
   height: 100%;
   display: block;
   display: none;
+  z-index: 99;
 }
 .overlay2.active {
   display: block;
