@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url(./loader.css);
+@import url(./_loader.css);
 @import url(./_topbar.css);
 @import url(./_suggestions.css);
 @import url(./_profile.css);
