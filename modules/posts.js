@@ -25,7 +25,7 @@ const Posts = () =>
 
 
       <div class="post">
-      7
+      
         <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/139015123_135962201593325_1543394052460518995_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&amp;_nc_cat=105&amp;_nc_ohc=lZ-sFcgbG0sAX8xDC_o&amp;tp=1&amp;oh=2421c85898576eb951d84a8b8bd48d53&amp;oe=60374281"/>
       </div>
 
