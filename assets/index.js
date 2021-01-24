@@ -54,8 +54,8 @@ const optionsCont = document.querySelector(".options-cont");
 const cuppy = document.querySelector(".cuppy");
 const postPopup = document.querySelector(".post-popup-cont");
 const photo = document.querySelector(".post-popup .photo");
-const post = document.querySelector(".post-popup");
 const heart = document.querySelector(".photo .fa-heart");
+const heart2 = document.querySelector(".actions .fa-heart");
 
 console.log(heart);
 //CLICK FUNCTIONS
@@ -72,8 +72,9 @@ cuppy.addEventListener("click", () => {
 });
 
 //like post
-post.addEventListener("click", (e) => {
+photo.addEventListener("click", (e) => {
   heart.classList.toggle("active");
+  heart2.classList.add("active");
 });
 
 //add overlay3 -> close post popup
