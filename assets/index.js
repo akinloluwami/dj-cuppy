@@ -12,9 +12,11 @@ import Options from "../modules/options.js";
 import Loader from "../modules/loader.js";
 import Overlay from "../modules/overlay.js";
 import Popup from "../modules/popup.js";
+import PostPopUp from "../modules/post-popup.js";
 
 const Insta = () => {
   return `
+  ${PostPopUp()}
   ${Overlay()}
   ${Loader()}
   ${Options()}
@@ -44,16 +46,40 @@ const btnFollowing = document.querySelector(".btn.following");
 const popUpCont = document.querySelector(".popup-cont");
 const overLay = document.querySelector(".overlay");
 const overLay2 = document.querySelector(".overlay2");
+const overLay3 = document.querySelector(".overlay3");
 const navBar = document.querySelector(".navbar");
 const unFollow = document.querySelector(".unfollow");
 const optionsBtn = document.querySelector(".fa-ellipsis-v");
 const optionsCont = document.querySelector(".options-cont");
+const cuppy = document.querySelector(".cuppy");
+const postPopup = document.querySelector(".post-popup-cont");
+const photo = document.querySelector(".post-popup .photo");
+const post = document.querySelector(".post-popup");
+const heart = document.querySelector(".photo .fa-heart");
 
+console.log(heart);
 //CLICK FUNCTIONS
 
 //toggle suggestions
 btnArrow.addEventListener("click", () => {
   suggestion.classList.toggle("active");
+});
+
+//show post
+cuppy.addEventListener("click", () => {
+  postPopup.classList.add("active");
+  overLay3.classList.add("active");
+});
+
+//like post
+post.addEventListener("click", (e) => {
+  heart.classList.toggle("active");
+});
+
+//add overlay3 -> close post popup
+overLay3.addEventListener("click", () => {
+  postPopup.classList.remove("active");
+  overLay3.classList.remove("active");
 });
 
 //follow
