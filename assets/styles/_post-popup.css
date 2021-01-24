@@ -22,7 +22,7 @@
   flex-direction: column;
 }
 .post-popup .photo {
-  object-fit: cover;
+  object-fit: contain;
   background-image: url(../img/cuppy.jpg);
   height: 350px;
   width: 350px;
