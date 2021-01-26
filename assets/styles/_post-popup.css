@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: #262626;
 }
 .photo .fa-heart {
   font-size: 0px;
