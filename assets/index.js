@@ -1,4 +1,4 @@
-{//IMPORT MODULES
+//IMPORT MODULES
 import TopBar from "../modules/topbar.js";
 import Bio from "../modules/bio.js";
 import Buttons from "../modules/buttons.js";
@@ -35,6 +35,7 @@ const Insta = () => {
   `;
 };
 
+console.log(NavBar);
 document.querySelector(".insta").innerHTML = Insta();
 
 //VARIABLES
@@ -57,7 +58,6 @@ const photo = document.querySelector(".post-popup .photo");
 const heart = document.querySelector(".photo .fa-heart");
 const heart2 = document.querySelector(".actions .fa-heart");
 
-console.log(heart);
 //CLICK FUNCTIONS
 
 //toggle suggestions
