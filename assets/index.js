@@ -1,4 +1,4 @@
-//IMPORT MODULES
+{//IMPORT MODULES
 import TopBar from "../modules/topbar.js";
 import Bio from "../modules/bio.js";
 import Buttons from "../modules/buttons.js";
